@@ -32,8 +32,24 @@ Make sure you have the following installed on your machine:
 - Node.js (v14 or higher)
 - MongoDB (local installation or a cloud instance)
 
+### Install Backend
+- npm init -y
+- npm install express mongoose bcryptjs jsonwebtoken cors axios
+- npm install --save-dev nodemon
+
+### Install Frontend 
+- npm install axios @reduxjs/toolkit react-redux
+
+### backend working 
+- http://localhost:5000
+
+### we use JWt Token 
+### In .env file 
+- MONGO_URI
+- JWT_SECRET
+- PORT
 ### Frontend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/user-management-app.git
+   git clone https://github.com/shivamyadav2469/user-management.git
    cd user-management-app/frontend
